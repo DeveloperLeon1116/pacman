@@ -1,7 +1,5 @@
 /*!
  * Pacman - HTML5 Game
- * https://passer-by.com/pacman/
- *
  * Copyright (c) 2016-present, HaoLe Zheng
  * Released under the MIT License.
  * https://github.com/mumuy/pacman/blob/master/LICENSE
