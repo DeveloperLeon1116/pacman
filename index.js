@@ -557,24 +557,6 @@
 				context.fillText('Pac-Man',this.x,this.y);
 			}
 		});
-		//版权信息
-		stage.createItem({
-			x:game.width-10,
-			y:game.height-5,
-			draw:function(context){
-				var text = '© passer-by.com';
-				context.font = '14px/20px Helvetica';
-				context.textAlign = 'left';
-				context.textBaseline = 'top';
-				context.fillStyle = '#AAA';
-				this.width = context.measureText(text).width;
-				this.x = game.width-this.width-10;
-				this.y = game.height-20-5;
-				context.fillText(text,this.x,this.y);
-			}
-		}).bind('click',function(){
-			window.open('https://passer-by.com');
-		});
 		//事件绑定
 		stage.bind('keydown',function(e){
 			switch(e.keyCode){
